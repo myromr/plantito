@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="/plant-svgrepo-com.svg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Plantito</title>
+</head>
+<body>
+  <header>
+    <nav class="header__nav">
+      <div class="header__logo">
+        <h4>Plantito</h4>
+      </div>
+
+      <ul class="header__menu">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Shop
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="#">Categories</a>
+              <a href="#">Products</a>
+              <a href="#">Special Offers</a>
+              <a href="#">New Arrivals</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#blog">Blog</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a href="#pages">Pages</a>
+        </li>
+      </ul>
+
+      <ul class="header__menu-mobile">
+        <li>
+          <img src="assets/menu.svg" alt="menu" />
+        </li>
+      </ul>
+
+      <ul class="header__menu header__auth">
+        <li>
+          <a href="#loginreg">Login/Register</a>
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <section class="gallery">
+    <div class="gallery_container">
+      <div class="image_container image-wide image-tall">
+        <img src="https://picsum.photos/id/599/800/530" alt="mosaic collection image" loading="lazy"/>
+        <div class="caption">
+          <p>First Photo Line 1</p>
+          <p>First Photo Line 2</p>
+          <p>First Photo Line 3</p>
+        </div>
+      </div>
+      
+      <div class="image_container">
+        <img src="https://picsum.photos/200/300?random=1" alt="mosaic collection image" loading="lazy"/>
+        <div class="caption">
+          <p>Second Photo Line 1</p>
+          <p>Second Photo Line 2</p>
+          <p>Second Photo Line 3</p>
+        </div>
+      </div>
+      
+      <div class="image_container">
+        <img src="https://picsum.photos/200/300?random=2" alt="mosaic collection image" loading="lazy"/>
+        <div class="caption">
+          <p>Third Photo Line 1</p>
+          <p>Third Photo Line 2</p>
+          <p>Third Photo Line 3</p>
+        </div>
+      </div>
+      
+      <div class="image_container image-wide">
+        <img src="https://picsum.photos/200/300?random=3" alt="mosaic collection image" loading="lazy"/>
+        <div class="caption">
+          <p>Fourth Photo Line 1</p>
+          <p>Fourth Photo Line 2</p>
+          <p>Fourth Photo Line 3</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/script.js" type="module"></script>
+</body>
+</html>
